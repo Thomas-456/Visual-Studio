@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+  background-color: #e0f0ff; /* Azul claro */
+  text-align: center;
+  font-family: sans-serif;
+}
+.boton-indice {
+  font-family: 'Dancing Script', cursive;
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 24px;
+  border-radius: 50px 10px 50px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  margin-top: 20px;
+}
+.boton-indice:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+var book = "maths";
+if( book == "history" ){
+ document.write("<b>History Book</b>");
+}else if( book == "maths" ){
+ document.write("<b>Maths Book</b>");
+}else if( book == "economics" ){
+ document.write("<b>Economics Book</b>");
+}else{
+ document.write("<b>Unknown Book</b>");
+}
+</script>
+<p>Set the variable to different value and then try...</p>
+</body>
+</html>
